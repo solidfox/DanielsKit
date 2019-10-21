@@ -10,10 +10,76 @@
 		964CB7D31960B8AF00E0C075 /* DanielsKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 964CB7D21960B8AF00E0C075 /* DanielsKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		964CB7D91960B8AF00E0C075 /* DanielsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 964CB7CD1960B8AF00E0C075 /* DanielsKit.framework */; };
 		964CB7E01960B8AF00E0C075 /* DanielsKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964CB7DF1960B8AF00E0C075 /* DanielsKitTests.swift */; };
+		96C6FDF31974289600C9B732 /* Probabilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C6FDF21974289600C9B732 /* Probabilities.swift */; };
+		96E4BD781973469600067E2D /* SwiftGoodies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E4BD771973469500067E2D /* SwiftGoodies.swift */; };
+		96E4BD7A197346AC00067E2D /* DateStuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E4BD79197346AC00067E2D /* DateStuff.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		964CB7DA1960B8AF00E0C075 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 964CB7C41960B8AF00E0C075 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 964CB7CC1960B8AF00E0C075;
+			remoteInfo = DanielsKit;
+		};
+		964CB84D1960C53000E0C075 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 964CB7C41960B8AF00E0C075 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 964CB7CC1960B8AF00E0C075;
+			remoteInfo = DanielsKit;
+		};
+		964CB84F1960C53000E0C075 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 964CB7C41960B8AF00E0C075 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 964CB7CC1960B8AF00E0C075;
+			remoteInfo = DanielsKit;
+		};
+		964CB8511960C53400E0C075 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 964CB7C41960B8AF00E0C075 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 964CB7CC1960B8AF00E0C075;
+			remoteInfo = DanielsKit;
+		};
+		964CB8531960C53D00E0C075 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 964CB7C41960B8AF00E0C075 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 964CB7CC1960B8AF00E0C075;
+			remoteInfo = DanielsKit;
+		};
+		96AF68C01962F287008D1E43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 964CB7C41960B8AF00E0C075 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 964CB7CC1960B8AF00E0C075;
+			remoteInfo = DanielsKit;
+		};
+		96AF68C21962F288008D1E43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 964CB7C41960B8AF00E0C075 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 964CB7CC1960B8AF00E0C075;
+			remoteInfo = DanielsKit;
+		};
+		96CE99F019614C0400D53DDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 964CB7C41960B8AF00E0C075 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 964CB7CC1960B8AF00E0C075;
+			remoteInfo = DanielsKit;
+		};
+		96CE99F219614C0500D53DDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 964CB7C41960B8AF00E0C075 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 964CB7CC1960B8AF00E0C075;
+			remoteInfo = DanielsKit;
+		};
+		96CE99FD19614C1500D53DDA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 964CB7C41960B8AF00E0C075 /* Project object */;
 			proxyType = 1;
@@ -29,6 +95,9 @@
 		964CB7D81960B8AF00E0C075 /* DanielsKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DanielsKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		964CB7DE1960B8AF00E0C075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		964CB7DF1960B8AF00E0C075 /* DanielsKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanielsKitTests.swift; sourceTree = "<group>"; };
+		96C6FDF21974289600C9B732 /* Probabilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Probabilities.swift; sourceTree = "<group>"; };
+		96E4BD771973469500067E2D /* SwiftGoodies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftGoodies.swift; sourceTree = "<group>"; };
+		96E4BD79197346AC00067E2D /* DateStuff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateStuff.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +140,9 @@
 		964CB7CF1960B8AF00E0C075 /* DanielsKit */ = {
 			isa = PBXGroup;
 			children = (
+				96E4BD79197346AC00067E2D /* DateStuff.swift */,
+				96C6FDF21974289600C9B732 /* Probabilities.swift */,
+				96E4BD771973469500067E2D /* SwiftGoodies.swift */,
 				964CB7D21960B8AF00E0C075 /* DanielsKit.h */,
 				964CB7D01960B8AF00E0C075 /* Supporting Files */,
 			);
@@ -146,6 +218,15 @@
 			);
 			dependencies = (
 				964CB7DB1960B8AF00E0C075 /* PBXTargetDependency */,
+				964CB84E1960C53000E0C075 /* PBXTargetDependency */,
+				964CB8501960C53000E0C075 /* PBXTargetDependency */,
+				964CB8521960C53400E0C075 /* PBXTargetDependency */,
+				964CB8541960C53D00E0C075 /* PBXTargetDependency */,
+				96CE99F119614C0400D53DDA /* PBXTargetDependency */,
+				96CE99F319614C0500D53DDA /* PBXTargetDependency */,
+				96CE99FE19614C1500D53DDA /* PBXTargetDependency */,
+				96AF68C11962F287008D1E43 /* PBXTargetDependency */,
+				96AF68C31962F288008D1E43 /* PBXTargetDependency */,
 			);
 			name = DanielsKitTests;
 			productName = DanielsKitTests;
@@ -210,6 +291,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96E4BD7A197346AC00067E2D /* DateStuff.swift in Sources */,
+				96C6FDF31974289600C9B732 /* Probabilities.swift in Sources */,
+				96E4BD781973469600067E2D /* SwiftGoodies.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +312,51 @@
 			isa = PBXTargetDependency;
 			target = 964CB7CC1960B8AF00E0C075 /* DanielsKit */;
 			targetProxy = 964CB7DA1960B8AF00E0C075 /* PBXContainerItemProxy */;
+		};
+		964CB84E1960C53000E0C075 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 964CB7CC1960B8AF00E0C075 /* DanielsKit */;
+			targetProxy = 964CB84D1960C53000E0C075 /* PBXContainerItemProxy */;
+		};
+		964CB8501960C53000E0C075 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 964CB7CC1960B8AF00E0C075 /* DanielsKit */;
+			targetProxy = 964CB84F1960C53000E0C075 /* PBXContainerItemProxy */;
+		};
+		964CB8521960C53400E0C075 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 964CB7CC1960B8AF00E0C075 /* DanielsKit */;
+			targetProxy = 964CB8511960C53400E0C075 /* PBXContainerItemProxy */;
+		};
+		964CB8541960C53D00E0C075 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 964CB7CC1960B8AF00E0C075 /* DanielsKit */;
+			targetProxy = 964CB8531960C53D00E0C075 /* PBXContainerItemProxy */;
+		};
+		96AF68C11962F287008D1E43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 964CB7CC1960B8AF00E0C075 /* DanielsKit */;
+			targetProxy = 96AF68C01962F287008D1E43 /* PBXContainerItemProxy */;
+		};
+		96AF68C31962F288008D1E43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 964CB7CC1960B8AF00E0C075 /* DanielsKit */;
+			targetProxy = 96AF68C21962F288008D1E43 /* PBXContainerItemProxy */;
+		};
+		96CE99F119614C0400D53DDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 964CB7CC1960B8AF00E0C075 /* DanielsKit */;
+			targetProxy = 96CE99F019614C0400D53DDA /* PBXContainerItemProxy */;
+		};
+		96CE99F319614C0500D53DDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 964CB7CC1960B8AF00E0C075 /* DanielsKit */;
+			targetProxy = 96CE99F219614C0500D53DDA /* PBXContainerItemProxy */;
+		};
+		96CE99FE19614C1500D53DDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 964CB7CC1960B8AF00E0C075 /* DanielsKit */;
+			targetProxy = 96CE99FD19614C1500D53DDA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -320,27 +449,33 @@
 		964CB7E41960B8AF00E0C075 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = DanielsKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		964CB7E51960B8AF00E0C075 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_USE_OPTIMIZATION_PROFILE = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = DanielsKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -398,6 +533,7 @@
 				964CB7E51960B8AF00E0C075 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		964CB7E61960B8AF00E0C075 /* Build configuration list for PBXNativeTarget "DanielsKitTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +542,7 @@
 				964CB7E81960B8AF00E0C075 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

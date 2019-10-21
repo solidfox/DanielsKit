@@ -7,6 +7,7 @@
 //
 
 import XCTest
+import DanielsKit
 
 class DanielsKitTests: XCTestCase {
     
@@ -21,15 +22,21 @@ class DanielsKitTests: XCTestCase {
     }
     
     func testExample() {
-        // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measureBlock() {
-            // Put the code you want to measure the time of here.
+        XCTAssertEqual(randomIndexFromDistribution([100]), 0)
+        
+        let dist = [0.2, 0.3, 0.4, 0.1]
+        var counts = [Int](count:dist.count, repeatedValue:0)
+        let samples = 10000
+        for i in 1...samples {
+            ++counts[randomIndexFromDistribution(dist)]
         }
+        for (index,count) in enumerate(counts) {
+            NSLog("\(index)")
+            XCTAssertEqualWithAccuracy(Double(count)/Double(samples), dist[index], 0.01, "Index \(index)")
+        }
+        
+        XCTAssertEqual(randomIndexFromDistribution([100]), 0)
+        
     }
     
 }
